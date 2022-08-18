@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="m.html">Register</a></li>
+      <li><a href="calculator.html">Upload</a></li>
+    </ul>
+
+    <div class="center">
+      <h1>HASH GENERATOR</h1>
+      <form name="login" method="post">
+        <div class="txt_field">
+          <input type="text" id="input" required />
+          <span></span>
+          <label>Name Of Student</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" id="uni" required />
+          <span></span>
+          <label>University</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" id="deg" required />
+          <span></span>
+          <label>Degree</label>
+        </div>
+
+        <input type="button" id="generate-button" value="Generate" />
+      </form>
+
+      Hash:
+      <textarea
+        type="text"
+        id="output"
+        rows="15"
+        cols="60"
+        style="width: 379px; height: 41px"
+      ></textarea>
+      <textarea
+        type="text"
+        id="out"
+        rows="15"
+        cols="60"
+        style="width: 379px; height: 41px"
+      ></textarea>
+      <textarea
+        type="text"
+        id="outp"
+        rows="15"
+        cols="60"
+        style="width: 379px; height: 41px"
+      ></textarea>
+    </div>
+
+    <script src="./j.js"></script>
+  </body>
+</html>
